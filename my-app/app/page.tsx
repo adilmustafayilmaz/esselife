@@ -19,7 +19,7 @@ export default function Home() {
                 <Link href="/contact" className='flex justify-center w-1/2 h-1/2 items-center'>
 
                     <div className='relative w-1/2 h-full max-md:w-screen max-md:h-full'>
-                        <Image src="/diet.png"
+                        <Image src="/doctor.webp"
                             alt=''
                             fill
                             sizes="1x"
