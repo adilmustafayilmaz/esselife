@@ -24,7 +24,7 @@ export default function About() {
                 <div className="bg-gradient-to-r from-[#C8E4B2] to-[#9ED2BE] inline-block text-transparent bg-clip-text font-extrabold">
                         <Typewriter
                             options={{
-                                strings: ['ESRA KAMA', 'SULTAN BLABLA'],
+                                strings: ['ESRA KAMA', 'SULTAN KARANTUNA'],
                                 autoStart: true,
                                 loop: true,
                             }} />
