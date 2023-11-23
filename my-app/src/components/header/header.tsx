@@ -68,23 +68,23 @@ export default function Header() {
                 <DialogDescription className="flex flex-col space-y-5">
 
                 <DialogClose asChild>
-                    <Button type="button" variant="outline" asChild className="border-2 border-[#B0D9B1] shadow-xl bg-[#F3EEEA]"><Link href="/" >Ana Sayfa</Link></Button>
+                    <Button type="button" variant="outline" asChild className="border-2 border-[#B0D9B1] shadow-xl bg-[#fff]"><Link href="/" >Ana Sayfa</Link></Button>
                   </DialogClose>
 
                   <DialogClose asChild>
-                    <Button type="button" variant="outline" asChild className="border-2 border-[#B0D9B1] shadow-xl bg-[#F3EEEA]"><Link href="/about">Hakkımızda</Link></Button>
+                    <Button type="button" variant="outline" asChild className="border-2 border-[#B0D9B1] shadow-xl bg-[#fff]"><Link href="/about">Hakkımızda</Link></Button>
                   </DialogClose>
 
                   <DialogClose asChild>
-                    <Button type="button" variant="outline" asChild className="border-2 border-[#B0D9B1] shadow-xl bg-[#F3EEEA]"><Link href="/applications">İşlemlerimiz</Link></Button>
+                    <Button type="button" variant="outline" asChild className="border-2 border-[#B0D9B1] shadow-xl bg-[#fff]"><Link href="/applications">İşlemlerimiz</Link></Button>
                   </DialogClose>
 
                   <DialogClose asChild>
-                    <Button type="button" variant="outline" asChild className="border-2 border-[#B0D9B1] shadow-xl bg-[#F3EEEA]"><Link href="/appointment">Randevu</Link></Button>
+                    <Button type="button" variant="outline" asChild className="border-2 border-[#B0D9B1] shadow-xl bg-[#fff]"><Link href="/appointment">Randevu</Link></Button>
                   </DialogClose>
 
                   <DialogClose asChild>
-                    <Button type="button" variant="outline" asChild className="border-2 border-[#B0D9B1] shadow-xl bg-[#F3EEEA]"><Link href="/contact">İletişim</Link></Button>
+                    <Button type="button" variant="outline" asChild className="border-2 border-[#B0D9B1] shadow-xl bg-[#fff]"><Link href="/contact">İletişim</Link></Button>
                   </DialogClose>
 
                 </DialogDescription>
