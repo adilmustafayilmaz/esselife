@@ -4,6 +4,7 @@ import React from 'react'
 
 import AddItem from '../../../libs/database/AddItem';
 import SignUp from '../../../libs/database/AddUser';
+import SignIn from '../../../libs/database/login';
 
 
 export default function Panel() {
@@ -17,7 +18,8 @@ export default function Panel() {
     const email = target.email.value;
     const password = target.password.value;
 
-    SignUp(email,password);
+    console.log(SignIn(email,password))
+    //SignUp(email,password)
 
   }
 
