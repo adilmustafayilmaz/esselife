@@ -3,9 +3,10 @@
 import React from 'react'
 
 import AddItem from '../../../libs/database/AddItem';
+import SignUp from '../../../libs/database/AddUser';
 
 
-export default async function Panel() {
+export default function Panel() {
 
 
   const handleSubmit = (event: React.FormEvent<HTMLFormElement>) => {
@@ -16,7 +17,8 @@ export default async function Panel() {
     const email = target.email.value;
     const password = target.password.value;
 
-    AddItem(email,password);
+    SignUp(email,password);
+
   }
 
   
