@@ -17,7 +17,6 @@ export default function RootLayout({
     <html lang="en">
       <body className='dark:bg-slate-400'>
         <Toaster
-          position="bottom-right"
           reverseOrder={false} />
         <div className="sticky top-0 z-50"><Header /></div>
         <main>{children}</main>
