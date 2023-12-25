@@ -1,6 +1,4 @@
-
 import './globals.css'
-import Header from "@/components/header/header"
 import { Toaster } from 'react-hot-toast';
 
 export const metadata = {
@@ -15,10 +13,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className='dark:bg-slate-400'>
+      <body>
         <Toaster
           reverseOrder={false} />
-        <div className="sticky top-0 z-50"><Header /></div>
         <main>{children}</main>
       </body>
     </html>

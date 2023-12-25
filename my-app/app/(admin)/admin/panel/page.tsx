@@ -1,7 +1,7 @@
 'use client'
 import React from 'react'
 import { cookies } from 'next/headers'
-import { removeCookie } from '../../../libs/signout/indext';
+import { removeCookie } from '../../../../libs/signout/indext';
 import { useRouter } from 'next/navigation';
 
 
