@@ -1,5 +1,6 @@
 'use client'
-
+import "@/styles/progressbar.css"
+import { motion, useScroll, useSpring } from "framer-motion";
 import Link from 'next/link'
 import { useEffect } from 'react'
 import { LinearGradient } from 'react-text-gradients'
@@ -19,6 +20,14 @@ import { DialogClose } from "@radix-ui/react-dialog";
 
 
 export default function Header() {
+
+  const { scrollYProgress } = useScroll();
+  const scaleX = useSpring(scrollYProgress, {
+    stiffness: 100,
+    damping: 30,
+    restDelta: 0.001
+  });
+
 
   useEffect(() => {
 
@@ -103,6 +112,8 @@ export default function Header() {
         </div>
 
       </div>
+
+      <motion.div className="progress-bar" style={{ scaleX }} />
 
     </header>
 

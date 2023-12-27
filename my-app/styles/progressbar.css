@@ -1,0 +1,14 @@
+body {
+    --green: #B0D9B1;
+  }
+  
+  
+  .progress-bar {
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    right: 0;
+    height: 10px;
+    background: var(--green);
+    transform-origin: 0%;
+  }
