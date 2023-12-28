@@ -15,7 +15,7 @@ import {
   DialogTrigger,
 } from "@/components/ui/dialog"
 import { DialogClose } from "@radix-ui/react-dialog";
-
+import FramerMagnetic from "../Magnetic/FramerMagnetic";
 
 
 
@@ -76,7 +76,7 @@ export default function Header() {
                 <DialogTitle className=" border-b-2 border-[#000]">Menu</DialogTitle>
                 <DialogDescription className="flex flex-col space-y-5">
 
-                <DialogClose asChild>
+                  <DialogClose asChild>
                     <Button type="button" variant="outline" asChild className="border-2 border-[#B0D9B1] shadow-xl bg-[#fff]"><Link href="/" >Ana Sayfa</Link></Button>
                   </DialogClose>
 
@@ -99,16 +99,15 @@ export default function Header() {
                 </DialogDescription>
               </DialogHeader>
             </DialogContent>
-          </Dialog>          
+          </Dialog>
 
         </div>
 
-        <div className=" space-x-10 max-lg:hidden">
-          <Link href="/" className='text-[#3C6255]'>Anasayfa</Link>
-          <Link href="/about" className='text-[#3C6255]'>Hakkımızda</Link>
-          <Link href="/applications" className='text-[#3C6255]'>İşlemlerimiz</Link>
-          <Link href="/contact" className='text-[#3C6255]'>Contact</Link>
-          <Link href="/appointment" className='text-[#3C6255]'>Randevu Al</Link>
+        <div className="space-x-10 max-lg:hidden flex">
+          <FramerMagnetic><Link href="/about" className='text-[#3C6255]'>Hakkımızda</Link></FramerMagnetic>
+          <FramerMagnetic><Link href="/applications" className='text-[#3C6255]'>İşlemlerimiz</Link></FramerMagnetic>
+          <FramerMagnetic><Link href="/contact" className='text-[#3C6255]'>Contact</Link></FramerMagnetic>
+          <FramerMagnetic><Link href="/appointment" className='text-[#3C6255]'>Randevu Al</Link></FramerMagnetic>
         </div>
 
       </div>
