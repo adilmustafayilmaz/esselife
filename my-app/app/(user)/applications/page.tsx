@@ -8,8 +8,27 @@ export default function Applications() {
   return (
     <>
       <div className='flex flex-col'>
+
+
         <div className='lg:flex max-lg:flex-col lg:justify-around'>
-          <TextComponent header='Andulasyon' imageName='/andulasyon.jpeg' style='bg-[#F2FFE9]' imageStyle={{objectFit: "cover"}}>
+          <TextComponent header='Işık' imageName='/isik.jpg' imageStyle={{ objectFit: "cover" }} style="bg-[#F2FFE9]">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam aut perferendis rerum
+              laboriosam provident corporis dolorum architecto consectetur rem officiis consequuntur f
+              uga ad laborum voluptates eveniet, porro officia magni explicabo impedit nostrum. Sint fa
+              cere quam exercitationem amet similique nulla harum nam. Ea magni similique expedita in mo
+              lestiae esse. Dolores repudiandae ullam eveniet tempora fugiat labore est placeat accusanti
+              um iste! Officia amet nobis repudiandae suscipit accusantium consequatur facilis ad beatae,
+              ratione eius soluta sint delectus totam similique, ducimus voluptas quas. Explicabo archi
+              tecto voluptatibus ullam animi qui delectus enim, iure quo nemo fuga. Cumque in beatae nisi
+              doloribus maxime, molestiae nam. Voluptate.
+            </p>
+
+          </TextComponent>
+        </div>
+        
+        <div className='lg:flex max-lg:flex-col lg:justify-around'>
+          <TextComponent header='Hypervolt' imageName='/hypervolt1.jpg' style='bg-[#F2FFE9]' imageStyle={{ objectFit: "cover" }}>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam aut perferendis rerum
               laboriosam provident corporis dolorum architecto consectetur rem officiis consequuntur f
@@ -25,7 +44,7 @@ export default function Applications() {
           </TextComponent>
 
 
-          <TextComponent header='Andulasyon' imageName='/doctor.webp' imageStyle={{ objectFit: "contain" }} style="bg-[#F2FFE9]">
+          <TextComponent header='Elektrik' imageName='/elektrik.jpg' imageStyle={{ objectFit: "cover" }} style="bg-[#F2FFE9]">
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam aut perferendis rerum
               laboriosam provident corporis dolorum architecto consectetur rem officiis consequuntur f
@@ -41,36 +60,7 @@ export default function Applications() {
           </TextComponent>
         </div>
 
-        <div className='lg:flex max-lg:flex-col lg:justify-around'>
-          <TextComponent header='Andulasyon' imageName='/doctor.webp' imageStyle={{ objectFit: "contain" }} style="bg-[#F2FFE9]">
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam aut perferendis rerum
-              laboriosam provident corporis dolorum architecto consectetur rem officiis consequuntur f
-              uga ad laborum voluptates eveniet, porro officia magni explicabo impedit nostrum. Sint fa
-              cere quam exercitationem amet similique nulla harum nam. Ea magni similique expedita in mo
-              lestiae esse. Dolores repudiandae ullam eveniet tempora fugiat labore est placeat accusanti
-              um iste! Officia amet nobis repudiandae suscipit accusantium consequatur facilis ad beatae,
-              ratione eius soluta sint delectus totam similique, ducimus voluptas quas. Explicabo archi
-              tecto voluptatibus ullam animi qui delectus enim, iure quo nemo fuga. Cumque in beatae nisi
-              doloribus maxime, molestiae nam. Voluptate.
-            </p>
 
-          </TextComponent>
-
-          <TextComponent header='Crush' imageName='/diet.png' imageStyle={{ objectFit: "contain" }} style='bg-[#F2FFE9]'>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam aut perferendis rerum
-              laboriosam provident corporis dolorum architecto consectetur rem officiis consequuntur f
-              uga ad laborum voluptates eveniet, porro officia magni explicabo impedit nostrum. Sint fa
-              cere quam exercitationem amet similique nulla harum nam. Ea magni similique expedita in mo
-              lestiae esse. Dolores repudiandae ullam eveniet tempora fugiat labore est placeat accusanti
-              um iste! Officia amet nobis repudiandae suscipit accusantium consequatur facilis ad beatae,
-              ratione eius soluta sint delectus totam similique, ducimus voluptas quas. Explicabo archi
-              tecto voluptatibus ullam animi qui delectus enim, iure quo nemo fuga. Cumque in beatae nisi
-              doloribus maxime, molestiae nam. Voluptate.
-            </p>
-          </TextComponent>
-        </div>
       </div>
     </>
   )
