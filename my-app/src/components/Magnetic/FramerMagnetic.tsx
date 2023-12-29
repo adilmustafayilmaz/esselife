@@ -32,7 +32,7 @@ export default function FramerMagnetic({ children }: Props) {
             onMouseLeave={mouseLeave}
             ref={ref}
             animate={{x , y}}
-            transition={{type: "spring", stiffness: 150, damping: 15, mass: 0.5}}
+            transition={{type: "spring", stiffness: 100, damping: 15, mass: 0.5}}
         >
             { children }
             

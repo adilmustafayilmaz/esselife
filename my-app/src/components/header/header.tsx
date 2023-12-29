@@ -103,7 +103,7 @@ export default function Header() {
 
         </div>
 
-        <div className="space-x-10 max-lg:hidden flex">
+        <div className="space-x-14 max-lg:hidden flex">
           <FramerMagnetic><Link href="/about" className='text-[#3C6255]'>Hakkımızda</Link></FramerMagnetic>
           <FramerMagnetic><Link href="/applications" className='text-[#3C6255]'>İşlemlerimiz</Link></FramerMagnetic>
           <FramerMagnetic><Link href="/contact" className='text-[#3C6255]'>Contact</Link></FramerMagnetic>
