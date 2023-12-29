@@ -11,7 +11,7 @@ export default function Applications() {
 
 
         <div className='lg:flex max-lg:flex-col lg:justify-around'>
-          <TextComponent header='Işık' imageName='/isik.jpg' imageStyle={{ objectFit: "cover" }} style="bg-[#F2FFE9]">
+          <TextComponent header='Işık' imageName='/isik.jpeg' imageStyle={{ objectFit: "cover" }} style="bg-[#F2FFE9]">
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam aut perferendis rerum
               laboriosam provident corporis dolorum architecto consectetur rem officiis consequuntur f
@@ -28,7 +28,7 @@ export default function Applications() {
         </div>
         
         <div className='lg:flex max-lg:flex-col lg:justify-around'>
-          <TextComponent header='Hypervolt' imageName='/hypervolt1.jpg' style='bg-[#F2FFE9]' imageStyle={{ objectFit: "cover" }}>
+          <TextComponent header='Hypervolt' imageName='/hypervolt1.jpeg' style='bg-[#F2FFE9]' imageStyle={{ objectFit: "cover" }}>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam aut perferendis rerum
               laboriosam provident corporis dolorum architecto consectetur rem officiis consequuntur f
@@ -44,7 +44,7 @@ export default function Applications() {
           </TextComponent>
 
 
-          <TextComponent header='Elektrik' imageName='/elektrik.jpg' imageStyle={{ objectFit: "cover" }} style="bg-[#F2FFE9]">
+          <TextComponent header='Elektrik' imageName='/elektrik.jpeg' imageStyle={{ objectFit: "cover" }} style="bg-[#F2FFE9]">
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam aut perferendis rerum
               laboriosam provident corporis dolorum architecto consectetur rem officiis consequuntur f
